@@ -28,3 +28,9 @@
 .dart_tool/
 .packages
 build/
+
+# Android related
+**/android/.gradle
+**/android/captures/
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
