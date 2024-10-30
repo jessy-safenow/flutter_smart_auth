@@ -54,6 +54,8 @@ android {
 dependencies {
     implementation "androidx.core:core-ktx:1.13.1"
     implementation("androidx.concurrent:concurrent-futures-ktx:1.2.0")
-    implementation 'com.google.android.gms:play-services-auth:21.2.0'
-    implementation 'com.google.android.gms:play-services-auth-api-phone:18.1.0'
+
+    // Warning: the Credentials API was removed in  version 21...
+    implementation 'com.google.android.gms:play-services-auth:20.7.0'
+    implementation 'com.google.android.gms:play-services-auth-api-phone:18.0.1'
 }
